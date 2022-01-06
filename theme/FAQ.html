@@ -56,17 +56,167 @@ FACEBOOK: https://www.facebook.com/themefisher
 
 <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
 
+  <nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="images/LandingPage_LogoDP3B.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="ti-menu"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown active @@pages">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Halaman
+              <span><i class="ti-angle-down"></i></span>
+            </a>
+            <!-- Dropdown list -->
+            <ul class="dropdown-menu">
+              <!-- <li><a class="dropdown-item @@team" href="team.html">Team</a></li> -->
+              <li><a class="dropdown-item active @@blog" href="blog.html">Daftar Rilis</a></li>
+              <li><a class="dropdown-item @@faq" href="FAQ.html">FAQ</a></li>
+              <li><a class="dropdown-item" href="https://forms.gle/fu8nscY2EhdHhSM57">Pendaftaran Akses</a></li>
+              <!-- <li><a class="dropdown-item" href="404.html">404</a></li> -->
+              <!-- <li><a class="dropdown-item" href="comming-soon.html">Coming Soon</a></li> -->
+            </ul>
+          </li>
+          <li class="nav-item @@about">
+            <!-- <a class="nav-link" href="about.html">Tentang</a> -->
+            <a class="nav-link" href="#">Tentang</a>
+          </li>
+          <li class="nav-item @@contact">
+            <a class="nav-link" href="contact.html">Hubungi Kami</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-<section class="error-page">
-	<div class="center">
-		<div class="block text-center">
-			<h1>Tunggu!</h1>
-			<h3>Halaman belum siap.. :(</h3>
-			<p>Akan di-update sesaat lagi. Tunggu yaaa~</p>
-			<a href="index.html" class="btn btn-main-md">visit homepage</a>
+<!--================================
+=            Page Title            =
+=================================-->
+
+<section class="section page-title">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 m-auto">
+				<!-- Page Title -->
+				<h1>Frequently Asked Questions (FAQs)</h1>
+				<!-- Page Description -->
+				<p>Halaman ini berisi pertanyaan umum serta jawaban terkait dengan penggunaan Aplikasi.</p>
+			</div>
 		</div>
 	</div>
 </section>
+
+<!--====  End of Page Title  ====-->
+
+
+  <!--=================================
+  =            FAQ Section            =
+  ==================================-->
+  <section class="faq section pt-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 m-auto">
+          <div class="block shadow">
+            <!-- Getting Started -->
+            <div class="faq-item">
+              <!-- Title -->
+              <div class="faq-item-title">
+                <h2>
+                  Umum
+                </h2>
+              </div>
+              <!-- Get Started Accordion -->
+              <div id="gstAccordion" data-children=".item">
+                <!-- Accordion Item 01 -->
+                <div class="item">
+                  <div class="item-link">
+                    <a data-toggle="collapse" data-parent="#gstAccordion" href="#gstAccordion1">
+                      Apa itu App RMR?
+                    </a>
+                  </div>
+                  <div id="gstAccordion1" class="collapse accordion-block">
+                    <p>
+                      Aplikasi RMR adalah web-based app (webapp) yang dibuat untuk mengatasi permasalahan user Operasional (PIC Peraturan) dan user Admin 
+                      dalam proses bisnis rule making rule (RMR) di Direktorat Pengaturan, Penelitian, dan Pengembangan IKNB (DP3B) Departemen Pengawasan 
+                      IKNB 1A (DPI1).
+                    </p>
+                  </div>
+                </div>
+                <!-- Accordion Item 02 -->
+                <div class="item">
+                  <div class="item-link">
+                    <a data-toggle="collapse" data-parent="#gstAccordion" href="#gstAccordion2">
+                      Teknologi apa yang menjadi dasar App RMR?
+                    </a>
+                  </div>
+                  <div id="gstAccordion2" class="collapse accordion-block">
+                    <p>
+                      App RMR dibangun di atas Google Sheets dan Google Apps Script. Google Sheets berfungsi sebagai media penyimpanan data (database),
+                      sedangkan Google Apps Script berfungsi sebagai back-end yang mengatur alur jalannya Aplikasi.
+                    </p>
+                  </div>
+                </div>
+                <!-- Accordion Item 03 -->
+                <div class="item">
+                  <div class="item-link">
+                    <a data-toggle="collapse" data-parent="#gstAccordion" href="#gstAccordion3">
+                      Apa itu Portal Aplikasi?
+                    </a>
+                  </div>
+                  <div id="gstAccordion3" class="collapse accordion-block">
+                    <p>
+                      Portal Aplikasi adalah website yang menampilkan versi-versi App RMR dan menginformasikan perkembangan terkini dari App RMR. 
+                      Website yang saat ini Anda akses adalah Portal Aplikasi.
+                      <br>Melalui Portal Aplikasi, user dapat memilih versi App RMR yang diinginkan untuk menguji coba fitur-fitur terkini yang masih dalam
+                      pengembangan. 
+                      <br>Namun, untuk operasional sehari-hari, pastikan untuk selalu menggunakan versi stabil terbaru ya!
+                    </p>
+                  </div>
+                </div>
+                
+            <!-- Account Accordion -->
+            <div class="faq-item">
+              <!-- Title -->
+              <div class="faq-item-title">
+                <h2>
+                  Tata Cara Mengakses App RMR
+                </h2>
+              </div>
+              <!-- Account Accordion -->
+              <div id="accountAccordion" data-children=".item">
+                <!-- Accordion Item 01 -->
+                <div class="item">
+                  <div class="item-link">
+                    <a data-toggle="collapse" data-parent="#accountAccordion" href="#accountAccordion1">
+                      Bisa kah dijelaskan secara ringkas cara mengakses App RMR?
+                    </a>
+                  </div>
+                  <div id="accountAccordion1" class="collapse accordion-block">
+                    <p>
+                      1. User mendaftar melalui Google Form yang disediakan
+                      <br> 2. User mengakses Portal Aplikasi
+                      <br> 3. User memilih versi Aplikasi yang diinginkan
+                      <br> 4. User mengakses versi Aplikasi
+                      <br> 5. Selesai.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Pricing & License Accordion -->
+            
+            <!-- Getting Started Accordion -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--====  End of FAQ Section  ====-->
 
 
   <!-- To Top -->
